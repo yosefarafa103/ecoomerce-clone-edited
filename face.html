@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="face.css">
+  <title>E-Commerce</title>
+</head>
+
+<body>
+
+  <div class="over-lay"></div>
+  <div class="list-swipe">
+    <div class="logo" style='display:flex;
+    align-items:center ; 
+    justify-content: space-between;'>
+      <a href="face.html"><img src="img/logo.png" alt=""></a>
+      <span id="close" style="
+          padding: 6px 10px;
+    background: red;
+    color: white;
+    border-radius: 10px;
+    cursor:pointer
+      
+      ">X</span>
+    </div>
+    <div class="last-part-links">
+      <div class="icons">
+        <i class="fa-solid fa-heart"></i>
+        <span class="liked"></span>
+        <i class="fa-solid fa-shop"></i>
+        <span class="shop"></span>
+      </div>
+      <div class="items">
+        items:<span>150:00$</span>
+      </div>
+      <div class="language">
+        <img src="img/language.png" alt="">
+        <span>English</span>
+        <i class="fa-solid fa-angle-down"></i>
+        <ul class="lan">
+          <li><a href="">Arabic</a></li>
+          <li><a href="">Spanish</a></li>
+          <li><a href="">Bortogues</a></li>
+        </ul>
+      </div>
+      <div class="links" style="display: block;">
+        <ul>
+          <li>
+            <i class="fa-solid fa-house"></i><a class="active" href="">Home</a>
+          </li>
+          <li>
+            <i class="fa-sharp fa-solid fa-cart-shopping"></i><a href="">Shop</a>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <a href="">Contant</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="header">
+    <div class="container">
+      <div class="mail">
+        <span class="mail">
+          <i class="fa-solid fa-square-envelope"></i>
+          hello@color.com
+        </span>
+        <span class="order">
+          free shopping for order 99$
+
+        </span>
+      </div>
+      <div class="other-settings">
+        <div class="social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-pinterest"></i>
+
+        </div>
+        <div class="language">
+          <img src="img/language.png" alt="">
+          <span>English</span>
+          <i class="fa-solid fa-arrow-down"></i>
+          <ul>
+            <li><a href="">Arabic</a></li>
+            <li><a href="">Spanish</a></li>
+            <li><a href="">Bortogues</a></li>
+          </ul>
+        </div>
+        <div class="user">
+          <i class="fa-solid fa-user"></i>
+          <span>User</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nav container">
+    <div class="logo">
+      <a href="face.html"><img src="img/logo.png" alt=""></a>
+    </div>
+    <div class="links">
+      <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="">Shop</a></li>
+        <li class="pages"><a href="">Pages</a>
+          <ul>
+            <li>
+              <a href="">shopping details</a>
+            </li>
+            <li>
+              <a href="">Shopping-Card</a>
+            </li>
+            <li>
+              <a href="">Check-Out</a>
+            </li>
+            <li>
+              <a href="">Blog-detrails</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="">Contant</a></li>
+      </ul>
+    </div>
+    <div class="last-part-links">
+      <div class="icons">
+        <i class="fa-solid fa-heart"></i>
+        <span class="liked"></span>
+        <i class="fa-solid fa-shop"></i>
+        <span class="shop"></span>
+      </div>
+      <div class="items">
+        items:<span>150:00$</span>
+      </div>
+      <div class="list" id="list">
+        <i class="fa-solid fa-list-ul"></i>
+      </div>
+
+    </div>
+  </div>
+  <div class="categorys container">
+    <ul>
+      <button class="All"><a href="">All Category</a>
+        <i id="s" class="fa-solid fa-angle-down"></i></button>
+      <li><a href="">Fruits</a></li>
+      <li><a href="">Vegtables</a></li>
+      <li><a href="">Maeat & Fresh</a></li>
+      <li><a href="">frish perrites</a></li>
+      <li><a href="">ocean foods</a></li>
+      <li><a href="">butter eggs</a></li>
+      <li><a href="">fastfood</a></li>
+      <li><a href="">fresh onion</a></li>
+      <li><a href="">papaya</a></li>
+      <li><a href="">otmyle</a></li>
+    </ul>
+  </div>
+  <div class="Featured-product container">
+    <h2 class="special-section">Featured Product</h2>
+    <div class="list-menuo">
+      <ul>
+        <li class="on">All</li>
+        <li> <a href="">Oranges</a> </li>
+        <li> <a href="">Fresh Meat</a> </li>
+        <li> <a href="">Vegetablesges</a> </li>
+        <li> <a href="">Fastfoodnges</a> </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="product">
+        <div class="image">
+          <img src="img/featured/feature-1.jpg" alt="Product">
+        </div>
+        <div class="icones">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="text">
+          <a href="">Crab Pool Security</a>
+          <div class="price">
+            <span>Price is: 30$</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="image">
+          <img src="img/featured/feature-1.jpg" alt="Product">
+        </div>
+        <div class="icones">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="text">
+          <a href="">Crab Pool Security</a>
+          <div class="price">
+            <span>Price is: 30$</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="image">
+          <img src="img/featured/feature-2.jpg" alt="Product">
+        </div>
+        <div class="icones">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="text">
+          <a href="">Crab Pool Security</a>
+          <div class="price">
+            <span>Price is: 30$</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="image">
+          <img src="img/featured/feature-3.jpg" alt="Product">
+        </div>
+        <div class="icones">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="text">
+          <a href="">Crab Pool Security</a>
+          <div class="price">
+            <span>Price is: 30$</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="image">
+          <img src="img/featured/feature-4.jpg" alt="Product">
+        </div>
+        <div class="icones">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="text">
+          <a href="">Crab Pool Security</a>
+          <div class="price">
+            <span>Price is: 30$</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="image">
+          <img src="img/featured/feature-5.jpg" alt="Product">
+        </div>
+        <div class="icones">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="text">
+          <a href="">Crab Pool Security</a>
+          <div class="price">
+            <span>Price is: 30$</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="image">
+          <img src="img/featured/feature-6.jpg" alt="Product">
+        </div>
+        <div class="icones">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="text">
+          <a href="">Crab Pool Security</a>
+          <div class="price">
+            <span>Price is: 30$</span>
+          </div>
+        </div>
+      </div>
+      <div class="product">
+        <div class="image">
+          <img src="img/featured/feature-7.jpg" alt="Product">
+        </div>
+        <div class="icones">
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-store"></i>
+        </div>
+        <div class="text">
+          <a href="">Crab Pool Security</a>
+          <div class="price">
+            <span>Price is: 30$</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ad">
+      <img src="img/banner/banner-1.jpg" alt="">
+      <img src="img/banner/banner-2.jpg" alt="">
+    </div>
+  </div>
+  <div class="most-product container">
+    <div class="Latest-Products">
+      <div class="main-part">
+        <h2>Latest Products</h2>
+        <div class="arrows">
+          <button>&lt</button>
+          <button>&gt</button>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-1.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-2.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-3.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Top-Rated-Products">
+      <div class="main-part">
+        <h2>Top-Rated-Products</h2>
+        <div class="arrows">
+          <button>&lt</button>
+          <button>&gt</button>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-1.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-2.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-3.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Review-Products">
+      <div class="main-part">
+        <h2>Review-Products</h2>
+        <div class="arrows">
+          <button>&lt</button>
+          <button>&gt</button>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-1.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-2.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont">
+        <div class="pro">
+          <div class="image">
+            <img src="img/featured/feature-3.jpg" alt="Product">
+          </div>
+          <div class="text">
+            <a href="">Crab Pool Security</a>
+            <div class="price">
+              <span>Price is: 30$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="the-blog container">
+    <div class="head special-section">
+      <h2>From The Blog</h2>
+    </div>
+    <div class="articals">
+      <div class="box">
+        <img src="img/blog/blog-1.jpg" alt="">
+        <div class="data">
+          <span class="date"> May 4,2019</span>
+          <i class="fa-solid fa-comment"></i>
+
+          <span class="comment">5</span>
+        </div>
+        <a href="">Cooking tips make cooking simple</a>
+        <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+      </div>
+      <div class="box">
+        <img src="img/blog/blog-2.jpg" alt="">
+        <div class="data">
+          <span class="date"> May 4,2019</span>
+          <i class="fa-solid fa-comment"></i>
+          <span class="comment">5</span>
+        </div>
+
+        <a href="">Cooking tips make cooking simple</a>
+        <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+      </div>
+      <div class="box">
+        <img src="img/blog/blog-3.jpg" alt="">
+        <div class="data">
+          <span class="date"> May 4,2019</span>
+          <i class="fa-solid fa-comment"></i>
+          <span class="comment">5</span>
+        </div>
+        <a href="">Cooking tips make cooking simple</a>
+        <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="add">
+      <div class="sec">
+        <div class="logo">
+          <a href=""><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="addres">
+          <span>Address: 60-49 Road 11378 New York</span>
+          <span>Phone: +65 11.188.888</span>
+          <span>Email: hello@colorlib.com</span>
+        </div>
+      </div>
+      <div class="sec">
+        <div class="about">
+          <h4>Useful Links</h4>
+          <div class="link">
+            <ul>
+              <li>Who We Are</li>
+              <li>Our Services</li>
+              <li>Projects</li>
+              <li>Contact</li>
+              <li>Innovation</li>
+              <li>Testimonials</li>
+            </ul>
+            <ul>
+              <li>About Us</li>
+              <li>Secure Shopping</li>
+              <li>Delivery infomation</li>
+              <li>Privacy Policy</li>
+              <li>Our Sitemap</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="sec">
+        <div class="Email">
+          <h4>Join Our Newsletter Now</h4>
+          <p>Get E-mail updates about our latest shop and special offers.</p>
+          <div class="btn">
+            <input type="text" placeholder="Enter your E-mail">
+            <button>Submit</button>
+          </div>
+          <div class="social-network">
+            <div class="iconz">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-pinterest"></i>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="parent">
+    <div class="child"></div>
+  </div>
+  <script src="face.js"></script>
+</body>
+
+</html>
